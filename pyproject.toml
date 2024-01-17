@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "library management"
+version = "0.1.0"
+description = "This is a Command Line based Library Management System"
+authors = ["Muhammad Ahmad Tahir"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+DateTime = "^5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
